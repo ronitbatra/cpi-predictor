@@ -1,0 +1,13 @@
+# Ignore data files
+data/raw/*
+data/processed/*
+
+# Ignore model files
+models/*.pkl
+
+# Ignore Jupyter notebook checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Ignore environment files
+*.env
+__pycache__/
