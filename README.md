@@ -35,16 +35,10 @@ python scripts/train_model.py
 ```
 - Uses **GridSearchCV** to find the optimal Ridge regression parameters.
 - Saves the trained model to `./models/ridge_model.pkl`.
-
-### **3. Model Evaluation**
-Evaluate the trained Ridge Regression model:
-```bash
-python scripts/evaluate_model.py
-```
 - Computes **Mean Absolute Error (MAE)** and **R² Score**.
 - Generates plots comparing **Actual vs. Predicted CPI**.
 
-### **4. Predict CPI**
+### **3. Predict CPI**
 Predict CPI based on new economic indicators:
 ```bash
 python scripts/predict_cpi.py
@@ -63,15 +57,13 @@ python scripts/predict_cpi.py
 - Trains a **Ridge Regression model**.
 - Uses **GridSearchCV** for hyperparameter tuning.
 - Saves the trained model to `./models/ridge_model.pkl`.
-
-### **3. evaluate_model.py**
 - Evaluates the model’s performance on a test dataset.
 - Outputs:
   - **MAE (Mean Absolute Error)**
   - **R² Score**
   - **Actual vs. Predicted CPI Scatter Plot**
-  
-### **4. predict_cpi.py**
+
+### **3. predict_cpi.py**
 - Takes user input for key economic indicators.
 - Loads the trained model and predicts CPI.
 
@@ -106,13 +98,3 @@ To see the full list of dependencies, refer to `requirements.txt`.
 - Implement **Lasso Regression** for feature selection.
 - Experiment with **Deep Learning** models for CPI prediction.
 - Automate **data updates** using live economic feeds.
-
----
-
-## **License**
-This project is licensed under the MIT License.
-
----
-
-## **Acknowledgments**
-Special thanks to the open-source contributors and data providers for economic forecasting research.
