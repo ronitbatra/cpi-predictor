@@ -38,14 +38,6 @@ python scripts/train_model.py
 - Computes **Mean Absolute Error (MAE)** and **R² Score**.
 - Generates plots comparing **Actual vs. Predicted CPI**.
 
-### **3. Predict CPI**
-Predict CPI based on new economic indicators:
-```bash
-python scripts/predict_cpi.py
-```
-- Takes user inputs for key economic factors.
-- Outputs the predicted **Consumer Price Index (CPI)**.
-
 ---
 
 ## **Files and Scripts**
@@ -62,10 +54,6 @@ python scripts/predict_cpi.py
   - **MAE (Mean Absolute Error)**
   - **R² Score**
   - **Actual vs. Predicted CPI Scatter Plot**
-
-### **3. predict_cpi.py**
-- Takes user input for key economic indicators.
-- Loads the trained model and predicts CPI.
 
 ---
 
